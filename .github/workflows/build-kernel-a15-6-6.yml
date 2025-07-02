@@ -30,6 +30,7 @@ on:
         description: '自定义版本名(如位于6.6.77-android15-8<自定义版本名>/留空则使用默认版本号)'
         required: false
         type: string
+        default: "-android15-8-geae86f166c48-abogki367569362-4k"
       use_zram:
         description: '是否开启增加更多ZRAM算法?'
         required: true
